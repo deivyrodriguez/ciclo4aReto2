@@ -7,10 +7,10 @@ import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 
 @AllArgsConstructor
-@Document(collection = "products")
+@Document(collection = "cosmetics")
 @Data
 @NoArgsConstructor
-public class Product {
+public class Cosmetics {
     @Id
     private String reference;
     private String brand;
